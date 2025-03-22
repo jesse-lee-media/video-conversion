@@ -1,0 +1,15 @@
+{
+  "name": "video-conversion",
+  "private": true,
+  "scripts": {
+    "convert": "bun run src/convert.ts",
+    "clean": "bun run src/clean.ts",
+    "lint": "oxlint --tsconfig tsconfig.json",
+    "lint:fix": "oxlint --tsconfig tsconfig.json --fix"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.5",
+    "oxlint": "^0.16.0",
+    "typescript": "^5"
+  }
+}

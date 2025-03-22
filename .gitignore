@@ -1,0 +1,11 @@
+# dependencies
+node_modules/
+
+# inputs/outputs
+in/*
+out/*
+!.gitkeep
+
+# misc
+.DS_Store
+*.log
